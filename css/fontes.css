@@ -1,0 +1,132 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top-banner-text-inside{
+    color:white;
+}
+
+.top-banner-text-inside{
+    text-align:center;
+}
+
+.top-banner-text-inside h1{
+    font-size: 4em;
+}
+
+.top-banner-text-inside p{
+    color:#908989;
+    margin-top: -6px;
+}
+
+.top-each-button{
+    text-decoration: none;
+    color:#a39e9d;
+    font-size:14px;
+}
+
+.top-each-button:hover{
+    color:white;
+}
+
+.top-each-button:active{
+    color:white;
+}
+
+.main-left-side h2{
+    font-size: 2em;
+    color: #414141;
+}
+
+.h2-description{
+    font-size: 0.85em;
+    color: #414141;
+}
+
+.paragraph{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.main-right-side h3{
+    font-size:0.9em;
+    color: #414141;
+}
+
+.main-right-comment{
+    font-size: 10px;
+    color:#aeaeae;
+}
+
+.text{
+    font-size:12px;
+    line-height: 1.5;
+}
+
+.card h3{
+    font-size: 0.9em;
+    color: #363636;
+}
+
+.card p{
+    font-size: 0.75em;
+    line-height:1.5;
+}
+
+.card button{
+    color: white;
+}
+
+.footer-card h3{
+    color: white;
+    font-size: 1em;
+}
+
+.footer-card li{
+    color: #6d6d6d;
+}
+
+@media screen and (min-width:1400px){
+    .top-banner-text-inside h1{
+        font-size:5em;
+    }
+
+    .top-banner-text-inside p{
+        font-size:0.9em;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width: 999px){
+    .top-banner-text-inside h1{
+        font-size:3.3em;
+    }
+
+    .top-banner-text-inside p{
+        font-size:0.9em;
+    }
+
+    .top-each-button{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .top-banner-text-inside h1{
+        font-size:2.5em;
+    }
+
+    .top-banner-text-inside p{
+        font-size:0.8em;
+    }
+    
+    .top-each-button{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .top-banner-text-inside h1{
+        font-size:2em;
+    }
+}
